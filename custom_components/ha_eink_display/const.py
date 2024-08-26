@@ -1,0 +1,1 @@
+DOMAIN = "ha_eink_display"
