@@ -3,6 +3,9 @@ from homeassistant.config_entries import ConfigEntry
 from homeassistant.helpers.typing import ConfigType
 from .const import *
 
+# manifest.json[requirements] should contain all the used pip packages. See 
+# https://developers.home-assistant.io/docs/creating_integration_manifest/
+
 async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
     return True
 
