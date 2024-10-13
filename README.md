@@ -1,0 +1,1 @@
+Using an [ESPHome](https://esphome.io/index.html) [BLE Proxy](https://esphome.io/components/bluetooth_proxy.html), this [HACS](https://www.hacs.xyz/) component communicates with a [HA E-Ink Display](https://github.com/davidanderle/HA-eink-display) via BLE to update its displayed data pulled from calendars, HA user phones, and other sensors.  
