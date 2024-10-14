@@ -12,52 +12,7 @@
   "config_flow": true,
   "bluetooth": [
     {
-      "service_uuid": "1800",
-      "characteristics": [
-        {
-          "uuid": "2A00",
-          "properties": ["read"]
-        },
-        {
-          "uuid": "2A01",
-          "properties": ["read"]
-        }
-      ]
-    },
-    {
-      "service_uuid": "180A",
-      "characteristics": [
-        {
-          "uuid": "2A24",
-          "properties": ["read"]
-        },
-        {
-          "uuid": "2A28",
-          "properties": ["read"]
-        },
-        {
-          "uuid": "2A29",
-          "properties": ["read"]
-        }
-      ]
-    },
-    {
-      "service_uuid": "180F",
-      "characteristics": [
-        {
-          "uuid": "2A19",
-          "properties": ["read"]
-        }
-      ]
-    },
-    {
-      "service_uuid": "6ff79d5c-e899-4531-90d8-5cc8adcf65a2",
-      "characteristics": [
-        {
-          "uuid": "6ff79d5d-e899-4531-90d8-5cc8adcf65a2",
-          "properties": ["read", "write"]
-        }
-      ]
+      "service_uuid": "6ff79d5c-e899-4531-90d8-5cc8adcf65a2"
     }
   ]
 }
