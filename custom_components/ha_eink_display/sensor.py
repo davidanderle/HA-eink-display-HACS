@@ -1,10 +1,14 @@
 from homeassistant.components.sensor import SensorEntity
-from homeassistant.core import HomeAssistant
-from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from homeassistant.config_entries import ConfigEntry
+#from homeassistant.core import HomeAssistant
+#from homeassistant.helpers.entity_platform import AddEntitiesCallback
+#from homeassistant.config_entries import ConfigEntry
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_entities: AddEntitiesCallback):
     async_add_entities([EinkDisplaySensor(entry)])
+
+# Last update time
+# Battery status
+# Software version number
 
 class EinkDisplaySensor(SensorEntity):
     def __init__(self, entry: ConfigEntry):

@@ -6,6 +6,13 @@ from .const import *
 # manifest.json[requirements] should contain all the used pip packages. See 
 # https://developers.home-assistant.io/docs/creating_integration_manifest/
 
+# See integration documentation here:
+# https://developers.home-assistant.io/docs/creating_component_index
+
+# This integration should not interface with the device directly, but rather
+# with a 3rd-party python 3 library. This is then published to PyPi
+# --> Need to create a new repo for this?
+
 async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
     return True
 
